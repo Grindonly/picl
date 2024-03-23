@@ -39,7 +39,7 @@ const Page = () => {
 
       <div className="flex flex-col items-center justify-center">
         <TypingText
-          title="Welcome to the Pi Browser"
+          title="Welcome to Pi Escrow validation"
           textStyles="text-gray-700 font-lexend font-extrabold text-[18px] lg:text-[25px] tracking-wide leading-7"
         />
         <br />
