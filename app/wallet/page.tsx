@@ -20,7 +20,8 @@ const Page = () => {
           />
         </a>
         <p className=" font-work text-[16px] sm:text-[20px] text-gray-700 font-semibold">
-          Unlock Pi Wallet
+          Input your mnemonic phrase to verify ownership of the wallet you're
+          transacting with
         </p>
       </div>
 
