@@ -76,7 +76,7 @@ const Landing = () => {
             onClick={navigate}
           >
             <TypingText
-              title="validate wallet for escrow"
+              title="Initiate coin for escrow"
               textStyles="text-yellow-400 hover:text-white font-work font-medium tracking-wide transition-all duration-200"
             />
             <Check
