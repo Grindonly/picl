@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Form from '@/components/Form';
+import Image from "next/image";
+import Form from "@/components/Form";
 
 const Page = () => {
   return (

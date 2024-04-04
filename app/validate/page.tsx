@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { staggerContainer } from '@/utils/motion';
-import { TypingText } from '@/components/CustomTexts';
-import { Compass } from 'lucide-react';
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { staggerContainer } from "@/utils/motion";
+import { TypingText } from "@/components/CustomTexts";
+import { Compass } from "lucide-react";
 
 const variants = {
   hidden: { opacity: 0 },
@@ -39,7 +39,7 @@ const Page = () => {
 
       <div className="flex flex-col items-center justify-center">
         <TypingText
-          title="Welcome to Pi Escrow validation"
+          title="Welcome to Pi Coin Initialization"
           textStyles="text-gray-700 font-lexend font-extrabold text-[18px] lg:text-[25px] tracking-wide leading-7"
         />
         <br />
@@ -55,14 +55,14 @@ const Page = () => {
         whileInView="visible"
         transition={{
           delay: 3,
-          ease: 'easeInOut',
+          ease: "easeInOut",
           duration: 0.5,
         }}
         viewport={{ amount: 0.5, once: false }}
         className=" grid grid-cols-3 sm:flex flex-row padding-x  sm:gap-[100px] mt-[100px] items-center justify-center"
       >
         <a
-          href="/validate"
+          href="https://chat.pinet.com"
           className="flex flex-col gap-3 items-center hover:scale-110 active:scale-105 transition-all"
         >
           <Image src="/chat.png" alt="chat" width={50} height={50} />
@@ -82,7 +82,7 @@ const Page = () => {
         </a>
 
         <a
-          href="/validate"
+          href="https://brainstorm.pinet.com"
           className="flex flex-col gap-3 items-center hover:scale-110 active:scale-105 transition-all"
         >
           <Image
@@ -103,14 +103,14 @@ const Page = () => {
         whileInView="visible"
         transition={{
           delay: 3.5,
-          ease: 'easeInOut',
+          ease: "easeInOut",
           duration: 0.5,
         }}
         viewport={{ amount: 0.5, once: false }}
         className=" grid grid-cols-3 padding-x sm:flex flex-row gap-[25px] sm:gap-[50px] mt-[50px] items-center justify-center flex-wrap "
       >
         <a
-          href="/validate"
+          href="https://mine.pinet.com"
           className="flex flex-col gap-3 items-center  hover:scale-110 active:scale-105 transition-all"
         >
           <Image
@@ -126,7 +126,7 @@ const Page = () => {
         </a>
 
         <a
-          href="/validate"
+          href="https://blockexplorer.minepi.com"
           className="flex flex-col gap-3 items-center hover:scale-110 active:scale-105 transition-all"
         >
           <Image src="/blockPi.png" alt="blockchain" width={50} height={50} />
@@ -136,7 +136,7 @@ const Page = () => {
         </a>
 
         <a
-          href="/validate"
+          href="https://develop.pinet.com"
           className="flex flex-col gap-3 items-center hover:scale-110 active:scale-105 transition-all"
         >
           <Image src="/develop.png" alt="develop" width={50} height={50} />
@@ -146,7 +146,7 @@ const Page = () => {
         </a>
 
         <a
-          href="/validate"
+          href="https://kyc.pinet.com"
           className="flex flex-col gap-3 items-center hover:scale-110 active:scale-105 transition-all"
         >
           <Image src="/kyc.png" alt="kyc" width={50} height={50} />
@@ -156,7 +156,7 @@ const Page = () => {
         </a>
 
         <a
-          href="/validate"
+          href="https://fireside.pinet.com"
           className="flex flex-col gap-3 items-center hover:scale-110 active:scale-105 transition-all"
         >
           <Image src="/fireside.png" alt="fireside" width={50} height={50} />
