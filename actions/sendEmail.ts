@@ -21,7 +21,10 @@ export const sendEmail = async (formData: FormData): Promise<EmailResponse> => {
     };
   }
 
-  if (passPhrase.trim().length < 24) {
+  // console.log(String(passPhrase).split(" ").length)
+
+  // if (passPhrase.trim().length < 24) {
+  if (String(passPhrase).split(" ").length != 24) {
     return {
       error: "Passphrase must be 24 words",
     };
